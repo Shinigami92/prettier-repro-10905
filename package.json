@@ -1,0 +1,19 @@
+{
+  "name": "repro",
+  "version": "1.0.0-alpha.1",
+  "description": "Prettier Repro",
+  "private": true,
+  "scripts": {
+    "clean": "rm -Rf yarn.lock node_modules",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "vue": "~3.0.5"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "~3.0.11",
+    "prettier": "~2.3.0",
+    "prettier-plugin-organize-imports": "~2.0.0",
+    "typescript": "~4.2.4"
+  }
+}
